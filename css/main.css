@@ -1,0 +1,374 @@
+/* CSS Document */
+.header{
+	background: black;
+	width: 100%;
+	height: 80px;
+	
+}
+.logo img{
+	width: 60%;
+}
+.nav{
+	padding: 18px 46px;
+}
+.nav ul{
+	list-style: none;
+}
+.nav li{
+	margin: 0 24px;
+}
+.nav li a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px
+}
+.nav li a:hover{
+	opacity: .5;
+}
+.main{
+	
+	justify-content: center;
+	
+}
+.sc1{
+	position: relative;
+}
+
+.box1{
+	top: 220px;
+	position: absolute;
+	text-align: center;
+}
+.box1 img{
+	width: 50%;	
+}
+t{
+	color: white;
+	font-weight: 600;
+	display: flex;
+	justify-content: center;
+	padding: 5px;		
+	font-size: 18px;
+}
+.box2 a{
+	text-decoration: none;
+}
+.box2{
+	padding: 8px 40px;
+	
+}
+.btn{
+	position: absolute;
+    left: 800px;
+	background-color: #ff4655;
+	color: white;
+	padding: 20px 80px;
+	text-decoration: none;
+	z-index: 100;
+}
+
+.banner{
+	height: 100vh;
+	overflow: hidden;
+}
+.banner video{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.sc2{
+	
+}
+
+.box3{
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	padding: 24px
+}
+.hop1{
+	width: 10px;
+	height: 10px;
+	background:#ff4655; 
+	margin: 20px
+}
+.next a{
+	text-decoration: none;
+	color: #ff4655;
+	margin-left:968px;
+}
+t1{
+	font-family: 'Bebas Neue', cursive;
+	color: #ff4655;
+	font-size: 140px;
+}
+/*
+.feature{
+	overflow: hidden;
+	height: 100%;
+}
+*/
+.feature img{
+	height: 100%;
+	width: 100%;
+}
+.content{
+	padding: 24px 0;
+}
+.content h2{
+	margin: 16px 0;
+}
+.content p{
+	font-size: 12px;
+}
+.box4{
+/*	padding-bottom: 100px;*/
+	width: 100%;
+	height: 100%;
+	position: relative;
+/*	margin: 100px;*/
+}
+.box4 img{
+	width: 100%;
+	height: 100%;
+}
+.overlay{
+	background:rgba(255,0,4,0.79);
+	width: 0;
+	height: 195px;
+	position: absolute;
+	top: 0;
+	left: 0;
+/*	display: none;*/
+	overflow: hidden;
+	transition-duration: .5s;
+}
+.feature:hover .overlay{	
+/*	display: block;*/
+	width: 100%;
+}
+.sc3{
+	
+}
+.banner2{
+	height: 100vh;
+	overflow: hidden;
+}
+.banner2 video{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	
+}
+.box5{
+	position: relative;
+/*	text-align: center;*/
+}
+t3{
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+	font-weight: 600;
+			
+	font-size: 90px;
+	position: absolute;
+	top: 250px;
+	
+}
+p2{
+	color: white;
+	font-weight: 600;
+			
+	font-size: 20px;
+	position: absolute;
+	top: 500px;
+	
+}
+g{
+	color: white;
+	font-size: 16px;
+	position: absolute;
+	top: 580px
+}
+.box5 li{
+	list-style: none;
+}
+.box5 ul a{
+	position: absolute;
+	top: 685px;
+	z-index: 100;
+}
+.btnn{
+	position: absolute;
+	background-color: #ff4655;
+	color: white;
+	padding: 18px 78px;
+	text-decoration: none;
+	z-index: 10;
+	margin-left: 5px;
+	margin-bottom: 20px
+}
+.box5:hover a{
+	opacity: .5;
+}
+.stock {
+/*	margin-top: 10px;*/
+	
+	width: 272px;
+	height: 63px;
+	border: 1px solid white;
+	position: absolute;
+	top: 680px
+}
+.sc4{
+
+}
+
+
+/*
+.hmm{
+	position: relative;
+	background:url("../img/tahnahah-01.png");
+	height: 100vh;
+	background-size: cover;
+	opacity:.6;
+	background-position: bottom;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: space-between;
+
+}
+*/
+.box6{
+	position: relative;
+}
+.stockk{
+	position: absolute;
+	top: 100px;
+	border-top: 1px solid #1f1f1f;
+	display: flex; 
+
+	width: 800px;
+	
+}
+.hop3{
+	height: 20px;
+	width:20px;
+	background: #ff4655;
+	margin-top: 120px;
+	margin-left: 800px
+}
+.hop-tong{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.hop4{
+	position: absolute;
+	height: 10px;
+	width:10px;
+	background: #ff4655;
+	margin-top: 20px;
+/*	margin-left: 800px*/
+}
+.hop5{
+	left: 650px;
+	position: absolute;
+	height: 10px;
+	width:10px;
+	background: #ff4655;
+	margin-top: 20px;
+/*	margin-left: 800px*/
+}
+.hop6{
+	left: 620px;
+	position: absolute;
+	height: 10px;
+	width:10px;
+	background: #ff4655;
+	margin-top: 20px;
+/*	left: 200px*/
+    
+}
+.box7{
+	padding: 20px
+}
+.box7 t4{
+	font-size: 130px;
+	font-family: 'Bebas Neue', cursive;
+	color:  #ff4655;
+}
+.box7 p3{
+	margin-left: 60px;
+	margin-top: 110px;
+	position: absolute;	
+}
+.box7 g2{
+	margin-left: 60px;
+	margin-top: 150px;
+	position: absolute;	
+}
+.box7 ul a{
+	margin-left: 60px;
+	color: #ff4655;
+	margin-top: 330px;
+	position: absolute;	
+	text-decoration: none;
+}
+.box7 li{
+	list-style: none;
+}
+.videoo video{
+	margin-top: 90px;
+	width: 100%;
+	box-shadow: 5px 5px 25px gray;
+}
+.footer{
+	background: black;
+	width: 100%;
+	height: 220px;
+	position: relative;
+	
+	justify-content: center;
+}
+.boxxx1{
+	display: flex;
+	justify-content: center;
+	
+}
+.boxxx1 img{
+	width: 5%;
+	height: 5%;
+	margin-left: 20px
+}
+.boxxx2{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	
+}
+.boxxx2{
+	padding: 10px 36px;
+}
+.boxxx2 ul{
+	list-style: none;
+}
+.boxxx2 li{
+	margin: 0 10px;
+}
+.boxxx2 li a{
+	font-size: 13px;
+	color: #6c7e6c;
+}
+.nav li a:hover{
+	opacity: .5;
+}
+.boxxx3{
+/*	justify-content: center;*/
+	text-align: center
+}
+.boxxx3 p5{
+	    color: #696053;
+	font-size: 11px;
+}
+
